@@ -1,0 +1,73 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.12rem;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: 0.4rem;
+  background-color: #111111; }
+  header i {
+    position: absolute;
+    top: 0.12rem;
+    left: 0.1rem;
+    color: #fff;
+    font-size: 0.16rem; }
+  header h1 {
+    font-size: 0.14rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.4rem; }
+
+.conment .dlag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%; }
+  .conment .dlag .list {
+    background-color: #fff;
+    width: 80%;
+    height: 4rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem; }
+    .conment .dlag .list .head img {
+      width: 150px;
+      height: 50px; }
+    .conment .dlag .list .bodys p {
+      position: relative; }
+      .conment .dlag .list .bodys p input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        margin-top: 0.2rem;
+        padding-left: 0.2rem; }
+      .conment .dlag .list .bodys p img {
+        position: absolute;
+        top: 0.2rem;
+        left: 0;
+        width: 10px;
+        height: 15px; }
+    .conment .dlag .list .bodys span {
+      position: relative; }
+      .conment .dlag .list .bodys span input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        margin-top: 0.2rem;
+        padding-left: 0.2rem; }
+      .conment .dlag .list .bodys span img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 15px; }
+.conment .dlg {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
